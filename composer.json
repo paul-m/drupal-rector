@@ -10,8 +10,8 @@
         "ast"
     ],
     "require": {
-        "rector/rector": "~0.18.0",
-        "webflo/drupal-finder": "^1.2"
+        "rector/rector": "@stable",
+        "webflo/drupal-finder": "@stable"
     },
     "license": "MIT",
     "authors": [
@@ -67,10 +67,10 @@
     },
     "require-dev": {
         "php": "^8.1",
-        "cweagans/composer-patches": "^1.7.2",
-        "phpstan/extension-installer": "^1.1",
-        "phpstan/phpstan": "^1.0",
-        "phpstan/phpstan-deprecation-rules": "^1.0",
+        "cweagans/composer-patches": "@stable",
+        "phpstan/extension-installer": "@stable",
+        "phpstan/phpstan": "@stable",
+        "phpstan/phpstan-deprecation-rules": "@stable",
         "phpunit/phpunit": "^10.0",
         "symplify/vendor-patches": "^11.0",
         "symfony/yaml": "^5 || ^6"
